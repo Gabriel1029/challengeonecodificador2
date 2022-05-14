@@ -1,0 +1,108 @@
+body {
+    /*
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Poppins', sans-serif;
+    */
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+:root {
+    --color-1: #f34c74;
+    --color-2: #f99d19;
+    --color-3: #69cdff;
+}
+
+.contenido-titulo {
+    width: inherit;
+    height: 5vh;
+    background-color: var(--color-3);
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+}
+#titulo{
+    font-size: 1.3rem;
+    margin: 1%;
+}
+/* contenido */
+.contenido{
+   width: inherit;
+   height: 91vh;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
+.text{
+    margin: 0 auto;
+    width: 30%;
+    height: 60%;
+}
+/* seccion  1*/
+.text-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.text-1 textarea{
+    height: 80%;
+   border: none;
+   resize: none;
+   outline: none;
+   font-size: 1rem;
+}
+#imagen-alerta{
+    height: 20%;
+}
+.item{
+    margin: 2%;
+}
+button{
+    border: none;
+    color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: var(--color-1);
+    cursor: pointer;
+}
+/* seccion  2*/
+.text-2{
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px var(--color-3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.img-1{
+    width: 75%;
+    margin-bottom: 3%;
+    opacity: .8;
+}
+#imagen-de-espera h2{
+   font-weight: bolder;
+}
+#imagen-de-espera p,h2{
+    margin: 1% 0;
+    opacity: .8;
+}
+#copiar{
+    margin-top: 2%;
+    width: 20%;
+    background-color: var(--color-2);
+}
+.text-2 textarea{
+    height: 80%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+}
+/* footer */
+footer{
+    background-color: var(--color-2);
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+}
